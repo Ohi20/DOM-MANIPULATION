@@ -5,8 +5,8 @@ body{
     font-family: "Courier New", Courier, monospace;
 }
 
+/* Richie Rich Bank */
 /* Header title */
-
 #header-title{
     color: darkmagenta;
 }
@@ -16,10 +16,10 @@ body{
     margin-top: 10px;
 }
 .heading {
-    color: darkblue;
+    color: darkmagenta;
     text-align: center;
     padding-top: 10px;
-    font-size: 35px;
+   
   }
   
   .info-text {
@@ -62,20 +62,26 @@ body{
   }
   
   .btn{
-      height: 200px;
+      height: 100px;
+      width: 300px;
       border-color: rgba(255, 255, 255, 0.37);
       background: rgba(255, 255, 255, 0.27);
       border-radius: 15px;
-      font-size: 70px;
+      padding: 10px;
+      font-size: 15px;
       font-weight: 700;
+      margin-top: 15px;
+      text-transform: uppercase;
       color: rgba(0, 0, 0, 0.3);
       cursor: pointer;
   }
   
   .btn:hover{
       background: rgba(255, 255, 255, 0.55);
+      box-shadow: 0 4px 4px rgba(0,0,0,.3);
       color: rgba(0, 0, 0, 0.6);
       transition: all 300ms ease;
+      color: green;
   }
 
   /* random-qoute */
@@ -85,7 +91,7 @@ body{
     justify-content: center;
     align-items: center;
   }
-  .container {
+  .qoute-container {
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
     padding: 30px;
@@ -111,21 +117,4 @@ body{
     font-style: italic;
   }
   
-  .btn {
-    font-size: 18px;
-    border-radius: 5px;
-    cursor: pointer;
-    padding: 10px;
-    margin-top: 15px;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-color: rgba(255, 255, 255, 0.6);
-    text-transform: uppercase;
-    width: 300px;
-  }
   
-  .btn:hover{
-      background-color: rgba(255,255,255,.6);
-      box-shadow: 0 4px 4px rgba(0,0,0,.3);
-      transition: all 300ms ease-in-out;
-      color: green;
-  }
