@@ -1,120 +1,186 @@
 /* Html body */
 
-body{
-    background: linear-gradient(to left, lightblue, lightgreen);
-    font-family: "Courier New", Courier, monospace;
+body {
+  background: linear-gradient(to left, lightblue, lightgreen);
+  font-family: "Courier New", Courier, monospace;
 }
 
 /* Richie Rich Bank */
 /* Header title */
-#header-title{
-    color: darkmagenta;
+#header-title {
+  color: darkmagenta;
 }
 
 /* Note app */
-.note-app{
-    margin-top: 10px;
+.note-app {
+  margin-top: 10px;
 }
-.heading {
-    color: darkmagenta;
-    text-align: center;
-    padding-top: 10px;
-   
-  }
-  
-  .info-text {
-    text-align: center;
-    color: darkblue;
-    font-size: 18px;
-  }
-  
-  .app {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
-    gap: 40px;
-    justify-content: center;
-    padding: 50px;
-  }
-  
-  .note {
-    padding: 17px;
-    border-radius: 15px;
-    resize: none;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
-    font-size: 18px;
-    height: 200px;
-    color: darkblue;
-    border: none;
-    outline: none;
-    background: rgba(255, 255, 255, 0.1);
-    box-sizing: border-box;
-  }
-  
-  .note::placeholder {
-    color: gray;
-    opacity: 30%;
-  }
-  
-  .note:hover,
-  .note:focus {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    transition: all 300ms ease;
-  }
-  
-  .btn{
-      height: 100px;
-      width: 300px;
-      border-color: rgba(255, 255, 255, 0.37);
-      background: rgba(255, 255, 255, 0.27);
-      border-radius: 15px;
-      padding: 10px;
-      font-size: 15px;
-      font-weight: 700;
-      margin-top: 15px;
-      text-transform: uppercase;
-      color: rgba(0, 0, 0, 0.3);
-      cursor: pointer;
-  }
-  
-  .btn:hover{
-      background: rgba(255, 255, 255, 0.55);
-      box-shadow: 0 4px 4px rgba(0,0,0,.3);
-      color: rgba(0, 0, 0, 0.6);
-      transition: all 300ms ease;
-      color: green;
-  }
 
-  /* random-qoute */
-  .random-qoute{
-    display: flex;
-    min-height: 100vh;
-    justify-content: center;
-    align-items: center;
-  }
-  .qoute-container {
-    background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
-    padding: 30px;
-    border-radius: 15px;
-    width: 90%;
-    margin: 10px;
-    text-align: center;
-  }
-  
-  .heading {
-    font-size: 35px;
-    font-weight: 700;
-  }
-  
-  .quote {
-    font-size: 30px;
-    font-weight: 600;
-  }
-  
-  .author {
-    font-size: 25px;
-    margin: 10px;
-    font-style: italic;
-  }
-  
-  
+.heading {
+  color: darkmagenta;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 35px;
+  font-weight: 700;
+
+}
+
+.info-text {
+  text-align: center;
+  color: darkblue;
+  font-size: 18px;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 40px;
+  justify-content: center;
+  padding: 50px;
+}
+
+.note {
+  padding: 17px;
+  border-radius: 15px;
+  resize: none;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+  height: 200px;
+  color: darkblue;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+}
+
+.note::placeholder {
+  color: gray;
+  opacity: 30%;
+}
+
+.note:hover,
+.note:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: all 300ms ease;
+}
+
+.btn {
+  height: 100px;
+  width: 300px;
+  border-color: rgba(255, 255, 255, 0.37);
+  background: rgba(255, 255, 255, 0.27);
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 15px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .3);
+  color: rgba(0, 0, 0, 0.6);
+  transition: all 300ms ease;
+  color: green;
+}
+
+/* random-qoute */
+.random-qoute {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.qoute-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  margin: 10px;
+  text-align: center;
+}
+
+.quote {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.author {
+  font-size: 25px;
+  margin: 10px;
+  font-style: italic;
+}
+
+/* quiz app */
+.quiz-app {
+  background: linear-gradient(to left, lightblue, lightgreen);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.quiz-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 600px;
+  overflow: hidden;
+}
+
+.quiz-header {
+  padding: 4rem;
+}
+
+h2 {
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+.submit-btn {
+  height: 100px;
+  width: 100%;
+  display: block;
+  border-color: rgba(255, 255, 255, 0.37);
+  background: rgba(255, 255, 255, 0.27);
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 15px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  text-align: center;
+}
+
+.submit-btn:hover {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .3);
+  color: rgba(0, 0, 0, 0.6);
+  transition: all 300ms ease;
+  color: green;
+}

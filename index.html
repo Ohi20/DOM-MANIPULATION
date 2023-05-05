@@ -38,33 +38,35 @@
                         <h4 class="text-center text-success mt-3">Income</h4>
                         <div class="input-group mb-3 ">
                             <span class="input-group-text" id="inputGroup-sizing-default">Income : </span>
-                            <input id="income-input"type="text" class="form-control border-3 " aria-label="Sizing example input"
-                                aria-describedby="inputGroup-sizing-default">
+                            <input id="income-input" type="text" class="form-control border-3 "
+                                aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                         </div>
                         <h4 class="text-center text-danger">Expenses</h4>
                         <div class="input-group my-3">
                             <span class="input-group-text" id="inputGroup-sizing-default">Food : </span>
-                            <input id="food-input" type="text" class="form-control border-3 " aria-label="Sizing example input"
-                                aria-describedby="inputGroup-sizing-default">
+                            <input id="food-input" type="text" class="form-control border-3 "
+                                aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                         </div>
                         <div class="input-group my-3">
                             <span class="input-group-text" id="inputGroup-sizing-default">Rent : </span>
-                            <input id="rent-input" type="text" class="form-control border-3 " aria-label="Sizing example input"
-                                aria-describedby="inputGroup-sizing-default">
+                            <input id="rent-input" type="text" class="form-control border-3 "
+                                aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                         </div>
                         <div class="input-group my-3">
                             <span class="input-group-text" id="inputGroup-sizing-default">Clothes : </span>
-                            <input id="clothes-input" type="text" class="form-control border-3 " aria-label="Sizing example input"
-                                aria-describedby="inputGroup-sizing-default">
+                            <input id="clothes-input" type="text" class="form-control border-3 "
+                                aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                         </div>
                         <!-- Calculate Button -->
                         <div class="text-center">
-                           <button id="calculate-button" type="button" class="btn btn-primary btn-sm px-4 py-1">Calculate</button>
+                            <button id="calculate-button" type="button"
+                                class="btn btn-primary btn-sm px-4 py-1">Calculate</button>
                         </div>
-                       <!-- Total expenses title -->
-                        <h3 class="text-center mt-3 text-danger">Total Expenses : <span id="expenses-total">00</span></h3>
+                        <!-- Total expenses title -->
+                        <h3 class="text-center mt-3 text-danger">Total Expenses : <span id="expenses-total">00</span>
+                        </h3>
                         <!-- Balance title -->
-                        <h3 class="text-center text-success">Remaining Balance : <span id = "balance-total">00</span></h3>
+                        <h3 class="text-center text-success">Remaining Balance : <span id="balance-total">00</span></h3>
                     </div>
                 </div>
             </div>
@@ -72,18 +74,17 @@
 
         <section class="note-app">
             <h1 class="heading font-weight-bold">Note Something Here</h1>
-    <p class="info-text">Double click on a note to remove it</p>
-    <div class="app" id="noteApp">
-      <!-- <textarea
+            <p class="info-text">Double click on a note to remove it</p>
+            <div class="app" id="noteApp">
+                <!-- <textarea
         cols="30"
         rows="10"
         class="note"
         placeholder="Empty Note"
       ></textarea> -->
 
-      <button class="btn" id="noteBtn">+</button>
-    </div>
-    
+                <button class="btn" id="noteBtn">+</button>
+            </div>
         </section>
 
         <section class="random-qoute">
@@ -93,11 +94,44 @@
                     <i class="fa-solid fa-quote-left"></i>
                     <span id="quote">Quote</span>
                     <i class="fa-solid fa-quote-right"></i>
-        
+
                 </h2>
                 <p class="author" id="author">~ Author</p>
                 <button class="btn" id="btn">Get a quote</button>
             </div>
+        </section>
+
+        <section class="quiz-app d-flex flex-column mx-1 px-4 my-2 gap-2">
+            <div>
+                <h1 class="heading font-weight-bold">Here Answer Some Questions</h1>
+            </div>
+            <div class="quiz-container" id="quiz">
+                <div class="quiz-header">
+                  <h2 id="question">Question text</h2>
+                  <ul>
+                    <li>
+                      <input type="radio" name="answer" id="a" class="answer">
+                      <label for="a" id="a_text">Question</label>
+                    </li>
+          
+                    <li>
+                      <input type="radio" name="answer" id="b" class="answer">
+                      <label for="b" id="b_text">Question</label>
+                    </li>
+          
+                    <li>
+                      <input type="radio" name="answer" id="c" class="answer">
+                      <label for="c" id="c_text">Question</label>
+                    </li>
+          
+                    <li>
+                      <input type="radio" name="answer" id="d" class="answer">
+                      <label for="d" id="d_text">Question</label>
+                    </li>
+                  </ul>
+                </div>
+                <button class="submit-btn" id="submit">Submit</button>
+              </div>
         </section>
 
     </main>
@@ -109,6 +143,7 @@
     <script src="js/calculate.js"></script>
     <script src="js/note.js"></script>
     <script src="js/randomQoute.js"></script>
+    <script src="js/quiz.js"></script>
 
 </body>
 
